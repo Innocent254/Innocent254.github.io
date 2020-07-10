@@ -1,0 +1,79 @@
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato",arial;
+	font-weight:400;
+	line-weight:1.8em;
+	color: #666;
+
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7,.pimg8{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pimg1{
+	background-image: url('../img/natsufire.jpg');
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url('../img/erza.jpg')
+	min-height: 100%;
+}
+
+.pimg3{
+	background-image: url('../img/graybring.jpg')
+	min-height: 100%;
+}
+
+.pimg4{
+	background-image: url('../img/wendyblue.jpg');
+	min-height: 400%;
+}
+
+.pimg5{
+	background-image: url('../img/mavis.jpg');
+	min-height: 400%;
+}
+
+.pimg6{
+	background-image: url('../img/juviaw.jpg');
+	min-height: 400%;
+}
+
+.pimg7{
+	background-image: url('../img/laxusl.jpg');
+	min-height: 400%;
+}
+
+.pimg8{
+	background-image: url('../img/legends.jpg');
+	min-height: 100%
+	opacity:0.70;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%
+	width:100%;
+	text-align: center;
+	color: #000;
+	font-size: 50px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
